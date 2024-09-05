@@ -1,0 +1,11 @@
+{
+  "name": "be.tombandiera.blackboardsystem",
+  "version": "0.0.1",
+  "displayName": "BlackboardSystem",
+  "description": "Blackboard System base classes",
+  "unity": "2022.3",
+  "author": {
+    "name": "Tom Bandiera",
+    "email": "tom.bandier@gmail.com",
+  }
+}
