@@ -1,7 +1,10 @@
 {
     "name": "Blackboard.Runtime",
     "rootNamespace": "BlackboardSystem.Runtime",
-    "references": [],
+    "references": [
+        "Sirenix.OdinInspector.Modules.UnityMathematics",
+        ""
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

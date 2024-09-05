@@ -51,6 +51,14 @@ namespace BlackboardSystem.Runtime
     {
         Dictionary<string, BlackboardKey> keyRegistry = new();
         Dictionary<BlackboardKey, object> entries = new();
+        public List<Action> PassedActions { get; } = new();
+
+        public void AddAction(Action action)
+        {
+            PassedActions.Add(action);
+        }
+
+        public void ClearActions() => PassedActions.Clear();
 
         public bool TryGetValue<T>(BlackboardKey key, out T value)
         {

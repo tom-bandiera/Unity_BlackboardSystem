@@ -2,7 +2,7 @@
   "name": "be.tombandiera.blackboardsystem",
   "version": "0.0.1",
   "displayName": "BlackboardSystem",
-  "description": "Blackboard System base classes",
+  "description": "Blackboard System inspired by git-amend (Github: adammyhre)",
   "unity": "2022.3",
   "author": {
     "name": "Tom Bandiera",
